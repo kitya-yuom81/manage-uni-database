@@ -169,7 +169,7 @@ SET status = 'completed',
 WHERE enrollment_id = 5;
 UPDATE enrollments
 SET status = 'completed',
-    grade = 'B+'       -- 👈 or any valid grade you want to assign
+    grade = 'B+'       
 WHERE enrollment_id = 3;
 UPDATE enrollments
 SET status = 'dropped',
